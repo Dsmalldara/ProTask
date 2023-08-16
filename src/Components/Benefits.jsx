@@ -68,7 +68,7 @@ function Benefits() {
       <motion.div
         transition={{ duration: 0.5 }}
         onClick={() => handleSegmentClick(3)}
-        className={`md:w-[27%] w-[57%] lg:h-[11.5rem] md:h-[13.9rem] pb-[1rem] h-[11rem] rounded-[4px]   bg-[#5a595933] ${
+        className={`md:w-[27%] w-[57%] lg:h-[11.5rem] md:h-[13.9rem]  h-[13rem] rounded-[4px]   bg-[#5a595933] ${
           activeSegment === 3 ? "border-b-2 border-blue-500" : ""
         }`}
         initial={{ opacity: 0, x: "9rem" }}
