@@ -88,7 +88,7 @@ function HomePage() {
         <p className='text-[0.9rem]'>Users</p>
         </span>
 </div>
-<div className='flex flex-col space-y-2'>
+<div className='flex flex-col space-y-2 mr-[0.5rem]'> 
 <span>
       <h1 className='flex text-[0.9rem] md:text-[2rem]  font-bold'>76%</h1>
        </span>
